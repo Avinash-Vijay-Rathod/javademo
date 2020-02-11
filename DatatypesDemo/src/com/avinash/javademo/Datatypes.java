@@ -13,6 +13,17 @@ public class Datatypes {
 		
 		// min and max values for character are not defined in wrapper class
 		System.out.println("Range of Character is "+Character.MIN_VALUE+" to "+Character.MAX_VALUE);
+		
+		// size of data types.
+		System.out.println("\n\nsize of data types.");
+		System.out.println("-----------------------------");
+		System.out.println("Size of Integer is : "+Integer.BYTES+" bytes");
+		System.out.println("Size of Bytes is   : "+Byte.BYTES+" bytes");
+		System.out.println("Size of Short is   : "+Short.BYTES+" bytes");
+		System.out.println("Size of Long is    : "+Long.BYTES+" bytes");
+		System.out.println("Size of Float is   : "+Float.BYTES+" bytes");
+		System.out.println("Size of Double is  : "+Double.BYTES+" bytes");
+		System.out.println("Size of Char is    : "+Character.BYTES+" bytes");
 	}
 
 }
