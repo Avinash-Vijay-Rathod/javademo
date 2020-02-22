@@ -33,7 +33,7 @@ public class StudentService {
 
 	public boolean updateStudent(int id, Student student) {
 		Student studentrecord;
-		studentrecord = students.set(students.indexOf(students.stream().filter(t -> t.getId() == id).findFirst().get()), student);
+		studentrecord = students.set(students.indexOf(getStudentById(id)), student);
 		
 		if (studentrecord != null) {
 			return true;
